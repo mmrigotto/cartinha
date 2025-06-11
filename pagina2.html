@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Para meu amor 💗</title>
+  <link rel="stylesheet" href="style2.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <img src="./images/cartinha.gif" alt="Carta">
+
+  <h1>Chegou uma carta<br><span>para você!</span></h1>
+  <p>Deseja abrir?</p>
+
+  <div class="buttons">
+    <button class="open-btn" onclick="abrirPopup()">Sim!</button>
+    <button class="no-btn" onclick="window.location.href='tentenovamente.html'">Não quero</button>
+  </div>
+
+   <div class="overlay" id="overlay" onclick="fecharPopup()"></div>
+
+  <div class="popup" id="popup">
+    
+    <h2>Feliz dia dos namorados❤️</h2>
+    <div class="carta">
+        
+      Feliz dia dos namooo meu amorzinho, eu te amo mais do que tudo nesse mundo só agradeço por ter você na minha vida!
+<br><br>
+      Obrigada por ser esse namorado perfeito, fofo, lindo, inteligente, engraçado, romântico e mutioo mais!!
+      <br><br>
+      Segundo aninho que estamos passando o dia dos namorados infelizmente não juntos, mas eu espero que todas as próximas datas passamos juntinhos bem do ladinho do outro.
+<br><br>
+      Te amo demais meu amor eu te amo do jeito que você é, obrigada por me ensinar o que é amar de verdade!! Tudo que eu quero é me casar com você, viver o resto da minha vida inteira com o amor da minha vida! Eu amo você demais!!!
+   <br><br>
+    Obrigada por tudo meu lindo 💕
+  <br><br>
+    Eu te amo! (ღ˘⌣˘ღ)
+ <br><br>
+    <strong>- Malli ;3</strong
+    </div>
+  </div>
+
+  <script>
+    function abrirPopup() {
+      document.getElementById("popup").style.display = "block";
+      document.getElementById("overlay").style.display = "block";
+    }
+
+    function fecharPopup() {
+      document.getElementById("popup").style.display = "none";
+      document.getElementById("overlay").style.display = "none";
+    }
+  </script>
+
+
+</body>
+</html>
